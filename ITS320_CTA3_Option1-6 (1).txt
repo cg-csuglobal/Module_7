@@ -1,0 +1,33 @@
+
+
+TheYear_For_250GTO = int(input('Please type GTO year here'))
+
+if TheYear_For_250GTO < 1962:
+    print ('Unknown price for the 250GTO')
+                       
+elif TheYear_For_250GTO <= 1964:
+    print ('price of 250GTO was $18,500')
+
+elif TheYear_For_250GTO <= 1968:
+    print ('price of 250GTO was $6,000')
+
+elif TheYear_For_250GTO <= 1971:
+    print ('price of 250GTO was $12,000')
+
+elif TheYear_For_250GTO <= 1975:
+    print ('price of 250GTO was $48,000')
+
+elif TheYear_For_250GTO <= 1980:
+    print ('price of 250GTO was $200,000')
+
+elif TheYear_For_250GTO <= 1985:
+    print ('price of 250GTO was $650,000')
+
+elif TheYear_For_250GTO <= 2012:
+    print ('price of 250GTO was $35,000,000')
+
+elif TheYear_For_250GTO <= 2014:
+    print ('price of 250GTO was $52,000,000')
+    
+elif TheYear_For_250GTO >= 2015:
+    print ('Unknown price for the 250GTO')
